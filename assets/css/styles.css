@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro&family=Montserrat&display=swap');
+
+body {
+    background-color: #d0cdd7;
+    font-family: Monsterrat, sans-serif;
+    color: #416165;
+
+}
+
+/* Headings and Logo */
+
+h1, h2, h3 {
+    font-family: Farro;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#logo {
+    float: none;
+    font-size: 300%;
+    margin-top: 50px;
+}
+
+
