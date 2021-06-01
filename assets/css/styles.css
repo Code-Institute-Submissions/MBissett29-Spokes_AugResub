@@ -17,22 +17,27 @@ div {
 h1, h2, h3 {
     font-family: Farro;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
+    
 }
 
 #logo {
-    float: none;
+    /*float: none;*/
     font-size: 300%;
     margin-top: 50px;
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 /* main image */
 
 section > img {
     max-width: 100%;
-    max-height: 500px;
+    height: 500px;
     margin: 10px 10px 10px 10px;
-    padding: 0;
+    border: 0;
+    
+    
 }
 
 /* Nav Bar */
@@ -43,9 +48,7 @@ section > img {
     font-family: Farro;
     font-size: 180%;
     text-decoration: none;
+    list-style-type: none;
     
 }
 
-nav > ul {
-    text-decoration: none;
-}
