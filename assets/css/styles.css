@@ -31,14 +31,14 @@ h1, h2, h3 {
 
 /* main image */
 
-section > img {
+#main-image > img {
     max-width: 100%;
     height: 500px;
-    margin: 10px 10px 10px 10px;
-    border: 0;
-    
-    
+    position:absolute;
+    top: 50%;
+    left: 50%;   
 }
+
 
 /* Nav Bar */
 
