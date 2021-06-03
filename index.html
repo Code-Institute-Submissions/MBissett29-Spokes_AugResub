@@ -15,10 +15,10 @@
         <!--Insert Title and Nav Bar-->
         <h1 id="logo">Spokes</h1>
         <nav>
-            <ul id="menu">
-                <li><a href="#about">About</a></li>
-                <li><a href="#trail">Trail</a></li>
-                <li><a href="#hub">Hub</a></li>
+            <ul id="nav">
+                <li class="menu"><a href="#about">About</a></li>
+                <li class="menu"><a href="#trail">Trail</a></li>
+                <li class="menu"><a href="#hub">Hub</a></li>
             </ul>
 
         </nav>
@@ -33,15 +33,15 @@
     <section id="about">
         <h2>About</h2>
         <ul>
-            <li>
+            <li class="info">
                 <h3>What is Spokes?</h3>
                 <p>Spokes hub is for mountain bike riders. The purpose is to share their trips on a platform so that other riders can view and use these routes for them selves. </p>
             </li>
-            <li>
+            <li class="info">
                 <h3>Whats our vision?</h3>
                 <p>Our Vision is to build a community of people that have a common interest in the world of mountain biking.</p>
             </li>
-            <li>
+            <li class="info">
                 <h3>Whats our aim?</h3>
                 <p>Our aim, once the community is built, to post group rides and suggested routes that people have shown an interest in. So it encourages more people to join up.</p>
             </li>
@@ -69,9 +69,9 @@
     <hr>
     
     <section id="hub">
-        <form>
+        <form class="signup">
             <h2>Hub</h2>
-            <fieldset id="enter-details"> 
+            <fieldset> 
             <label for="fname">First Name</label>
             <input id="fname" class="text-input" name="first_name" type="text" required>
             
@@ -82,7 +82,7 @@
             <input type="email" id="email" class="text-input" name="email_address" required>
 
             <label for="password">Password</label>
-            <input type="password" id="password" class="password" name="password" required >
+            <input type="password" id="password" class="text-input name="password" required >
 
         </fieldset>
 

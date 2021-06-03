@@ -13,6 +13,13 @@ div > #main-image {
     height: 600px;
 }
 
+p {
+    width: 200px;
+    height: 200px;
+
+}
+
+
 /* Headings and Logo */
 
 h2, h3 {
@@ -45,7 +52,7 @@ h2, h3 {
 
 /* Nav Bar */
 
-#menu {
+#nav {
     text-align: center;
     text-transform: uppercase;
     font-family: Farro;
@@ -53,5 +60,36 @@ h2, h3 {
     text-decoration: none;
     list-style-type: none;
     
+}
+
+.menu {
+    display: inline-flex;
+}
+
+/* About Section */
+
+.info {
+    display: inline-block;
+    align-items: center;
+    margin: 2px;
+}
+
+/* Form */
+
+.text-input {
+    background: transparent;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+.signup {
+    margin: 0 0 0 0;
+    max-width: 400px;
+    position: absolute;
+    padding: 30px;
+    left: 45%;
 }
 
