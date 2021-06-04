@@ -19,6 +19,10 @@ p {
 
 }
 
+li {
+    list-style-type: none;
+}
+
 
 /* Headings and Logo */
 
@@ -26,8 +30,7 @@ h2, h3 {
     font-family: Farro;
     text-transform: uppercase;
     text-align: left;
-    letter-spacing: 2px;
-    
+    letter-spacing: 2px;   
 }
 
 #logo {
@@ -70,8 +73,7 @@ h2, h3 {
 
 .info {
     display: inline-block;
-    align-items: center;
-    margin: 2px;
+    
 }
 
 /* Form */
@@ -93,3 +95,6 @@ h2, h3 {
     left: 45%;
 }
 
+#button {
+    color: #416165;
+}
