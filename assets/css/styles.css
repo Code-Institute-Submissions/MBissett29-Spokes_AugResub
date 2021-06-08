@@ -87,7 +87,12 @@ div > #main-image {
 
 .info {
     display: inline-flex;
-    align-items: center;
+    align-items: center;    
+}
+
+/* Trail Section */
+
+.user-image {
     
 }
 
