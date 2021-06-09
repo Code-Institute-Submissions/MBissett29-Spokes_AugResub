@@ -12,6 +12,7 @@ body {
 p {
     width: 200px;
     height: 200px;
+    display: block;
 
 }
 
@@ -41,6 +42,11 @@ h2, h3 {
     text-transform: uppercase;
     text-align: left;
     letter-spacing: 2px;   
+}
+
+li > h3 {
+    margin: 0 0 250px;
+
 }
 
 #logo {
@@ -87,7 +93,7 @@ div > #main-image {
 
 .info {
     display: inline-flex;
-    align-items: center;    
+    align-items: center;
 }
 
 /* Trail Section */
