@@ -4,6 +4,7 @@ body {
     background-color: #d0cdd7;
     font-family: Monsterrat, sans-serif;
     color: #416165;
+    text-align: center;
 
 }
 
@@ -40,7 +41,7 @@ footer > li {
 h2, h3 {
     font-family: Farro;
     text-transform: uppercase;
-    text-align: left;
+    text-align: center;
     letter-spacing: 2px;   
 }
 
@@ -93,8 +94,11 @@ div > #main-image {
 
 .info {
     display: inline-flex;
-    align-items: center;
+    align-items: left;
+    padding-right: 20px;
 }
+
+
 
 /* Trail Section */
 
