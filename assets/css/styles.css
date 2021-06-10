@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Farro&family=Montserrat&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #d0cdd7;
     font-family: Monsterrat, sans-serif;
@@ -14,6 +18,7 @@ p {
     width: 200px;
     height: 200px;
     display: block;
+    
 
 }
 
@@ -92,11 +97,26 @@ div > #main-image {
 
 /* About Section */
 
-.info {
+/* .info {
     display: inline-flex;
     align-items: left;
     padding-right: 20px;
-}
+} 
+ */
+
+ 
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
 

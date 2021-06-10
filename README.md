@@ -23,3 +23,14 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 /* Input images of home page */
 
 
+
+
+## Testing
+
+### Images
+* I particualrly found also the sizing of the different particularly a challenge to fit where i wanted them to with in its section, from the main-image to also the users-image.
+
+### About section
+* i have done alot of testing to position the three boxes of information, this has provided me with a learning experience of needing to look more into centering, positioning and the bos method. After doing some more html and css research i realised that giving the three different section a class of .row and .column i found that it made the page respon to what i wanted it to do. 
+
+
