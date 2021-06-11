@@ -24,6 +24,12 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 
 ## Features to Add
 
+### Members Page
+* once logged into the social page it will allow members to input and add their trails to the main trail section part of the website.
+
+### Form Section
+* In the future this form section will be able to store data using another programming language.
+
 
 
 
@@ -37,4 +43,5 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 ### About section
 * i have done alot of testing to position the three boxes of information, this has provided me with a learning experience of needing to look more into centering, positioning and the bos method. After doing some more html and css research i realised that giving the three different section a class of .row and .column i found that it made the page respon to what i wanted it to do. 
 
-
+### Trail Section
+* I changed the format of the trail section frim just an image and some text into a table to make the page a little more uniform. I am still unsure if that is something that works in the long run however for now it neatens it up.
