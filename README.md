@@ -22,6 +22,10 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 
 /* Input images of home page */
 
+## Features to Add
+
+
+
 
 
 
