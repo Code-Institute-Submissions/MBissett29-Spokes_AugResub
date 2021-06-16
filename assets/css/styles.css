@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Farro&family=Montserrat&display=swap');
 
 * {
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 
 .grid-container {
@@ -15,61 +15,16 @@
     padding: 10px;
 }
 
- .item1 {
-    grid-column: 1 / span 3;
-    grid-row: 1;
-  }
-  
-  .item2 {
-    grid-column: 1 / span 3;
-    grid-row: 2 
-  }
-  
-  
-  
-  .item4 {
-    grid-column: 1 / span 3;
-    grid-row: 4;
-  }
-  
-  .item5 {
-    grid-column: 1 / span 3;
-    grid-row: 5;
-  }
-  
-  .item6 {
-    grid-column: 1 / span 3;
-    grid-row: 6;
-  }
-
-  .item7 {
-    grid-column: 1 / span 3;
-    grid-row: 7;
-  }
-
-  .item8 {
-    grid-column: 1 / span 3;
-    grid-row: 8;
-  }
-
-  .item9 {
-    grid-column: 1 / span 3;
-    grid-row: 9;
-  }
-
 body {
     background-color: #d0cdd7;
     font-family: Monsterrat, sans-serif;
     color: #416165;
-    text-align: center;
-
 }
-
-
 
 p {
     max-width: 200px;
     display: block;
+    text-align: center;
 
 }
 
@@ -79,29 +34,19 @@ li {
 
 
 
-footer {
-    color: #416165;
-    font-size: 200%;
-    max-width: 100%;
-    max-height: 100px;
-    padding: 20%;
-    margin: 3px;
-}
-
-footer > li {
-    display: inline;
-}
-
-
-
-
 /* Headings and Logo */
+
+.item1 {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+  }
 
 h2 {
     font-size: 250%;
     font-family: Farro;
     text-transform: uppercase;
-    letter-spacing: 2px;   
+    letter-spacing: 2px;  
+    text-align: center; 
 }
 
 h3 {
@@ -111,11 +56,6 @@ h3 {
     letter-spacing: 2px;   
 }
 
-li > h3 {
-    margin: 0 0 250px;
-
-}
-
 #logo {
     /*float: none;*/
     font-family: Farro;
@@ -123,6 +63,28 @@ li > h3 {
     margin-top: 50px;
     letter-spacing: 2px;
     text-align: center;
+}
+
+/* Nav Bar */
+
+.item2 {
+    grid-column: 1 / span 3;
+    grid-row: 2 
+  }
+  
+
+#nav {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Farro;
+    font-size: 180%;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+.menu {
+    display: inline;
 }
 
 /* main image */
@@ -140,45 +102,53 @@ li > h3 {
     height: 800px;
 }
 
-/* Nav Bar */
 
-#nav {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Farro;
-    font-size: 180%;
-    text-decoration: none;
-    list-style-type: none;
-    
-}
-
-.menu {
-    display: inline;
-}
 
 /* About Section */
+
+.item4 {
+    grid-column: 1 / span 3;
+    grid-row: 4;
+  }
+  
 
   .column {
     float: left;
     width: 33.33%;
     padding: 10px;
   }
-  
+
+
+
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
 
-  p > h3 {
-    text-align: center;
+    h3 > p{
+    box-align: inherit;
   }
 
 
 /* Trail Section */
 
+.item5 {
+    grid-column: 1 / span 3;
+    grid-row: 5;
+  }
+  
+  .item6 {
+    grid-column: 1 / span 3;
+    grid-row: 6;
+  }
+
+  .item7 {
+    grid-column: 1 / span 3;
+    grid-row: 7;
+  }
+
 .user-image .left {
-    position: absolute;
     left: 0px;
     padding: 10px;
 
@@ -191,6 +161,11 @@ li > h3 {
 }
 
 /* Form */
+
+.item8 {
+    grid-column: 1 / span 3;
+    grid-row: 8;
+  }
 
 #hub {
    
@@ -207,7 +182,7 @@ li > h3 {
 
 .signup {
     margin: 0 0 0 0;
-    max-width: 400px;
+    max-width: 100px;
     position: absolute;
     padding: 30px;
     
@@ -217,3 +192,21 @@ li > h3 {
     color: #416165;
 }
 
+/* Footer */
+
+.item9 {
+    grid-column: 1 / span 3;
+    grid-row: 9;
+  }
+
+
+footer {
+    color: #416165;
+    font-size: 200%;
+    max-width: 100%;
+    max-height: 100px;
+    padding: 20%;
+    margin: 3px;
+    text-align: center;
+    display: inline;
+}
