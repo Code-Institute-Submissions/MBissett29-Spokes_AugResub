@@ -13,26 +13,31 @@
 <body>
     <div class="grid-container">
 
-    <header>
-        <h1 id="logo" class="item1">Spokes</h1>
+    
+    <div class="grid-item item1">
+        <header>
+            <h1 id="logo">Spokes</h1>
+    </div>
+
+    <div class="grid-item item2">
         <nav>
-            <ul id="nav" class="item2">
+            <ul id="nav" >
                 <li class="menu"><a href="#about">About</a></li>
                 <li class="menu"><a href="#trail">Trail</a></li>
                 <li class="menu"><a href="#hub">Hub</a></li>
             </ul>
-
         </nav>
-    </header>
 
-    <div  class= "item3" class="fill">
+        </header>
+    </div>
+
+
+    <div  class= "grid-item item3" class="fill">
         <img id="main-image" src="assets/images/pexels-pixabay-161172.jpg" alt="biker holding mountain bike on top of mountain with green grass">
         <!--"https://www.pexels.com/photo/biker-holding-mountain-bike-on-top-of-mountain-with-green-grass-161172/ "--> 
     </div>
-    <hr>
     
-    <section id="about">
-    <div class="item4">
+    <div id="about" class="grid-item item4">
         <h2>About</h2>
     <div class="row" >
         <div class="column">
@@ -47,23 +52,14 @@
           <h2>Whats our aim?</h2>
           <p>Our aim, once the community is built, to post group rides and suggested routes that people have shown an interest in. So it encourages more people to join up.</p>
         </div>
-      </div>
+    </div>
     </div>
 
-    </section>
-    <hr>
-
-    <section id="trail">
-    <div class="item5">
+    <div id="trail" class="grid-item item5">
         <h2>Trail</h2>
     </div>
-    <div class="item6">
+    <div class="grid-item item6">
         <img class="user-image left" src="assets/images/Windy Cliffs.jpg" alt="Janes route at the windy cliffs">
-       <!-- <p> Jane
-            Cube Hardtail
-            This was a fun and challenging ride. Be aware of the top section as it can get quite windy .
-        </p>
-        -->
         <table>
             <tr>
                 <td>Name:</td>
@@ -81,7 +77,7 @@
     </div>
 
 
-    <div class="item7">
+    <div class="grid-item item7">
         <img class="user-image right" src="" alt="Joe's downhill route">
        <!-- <p> Joe
             Santa Cruz Hightower
@@ -103,13 +99,8 @@
         </table>
     </div>
 
-
-
-    </section>
-    <hr>
     
-    <section id="hub">
-        <div class="item8">
+        <div id="hub" class="grid-item item8">
             <form method= "POST" action="#" class="signup">
                 <h2>Hub</h2>
                     <label for="fname">First Name</label>
@@ -127,19 +118,20 @@
                     <input id="button" type="submit" value="Submit" >
             </form>
         </div>
-    </section>
 
     
-
-    <footer class="item9">
-        <ul>
-            <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="View us on instagram"><i class="fab fa-instagram"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Tweet us at twitter"><i class="fab fa-twitter"></i></a>
-            </li>
-        </ul>
+<div class="grid-item item9">
+    <footer>
+        
+            <ul>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="View us on instagram"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Tweet us at twitter"><i class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
     </footer>  
 </div>
 
