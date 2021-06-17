@@ -41,6 +41,10 @@ li {
     grid-row: 1;
   }
 
+h1 {
+  text-align: center;
+}
+
 h2 {
     font-size: 250%;
     font-family: Farro;
@@ -56,13 +60,20 @@ h3 {
     letter-spacing: 2px;   
 }
 
+h4 {
+  font-size: 75%;
+  font-family: Farro;
+  text-transform: uppercase;
+  letter-spacing: 2px; 
+  text-align: center;
+}
+
 #logo {
     /*float: none;*/
     font-family: Farro;
     font-size: 500%;
     margin-top: 50px;
     letter-spacing: 2px;
-    text-align: center;
 }
 
 /* Nav Bar */
@@ -84,7 +95,7 @@ h3 {
 }
 
 .menu {
-    display: inline;
+  display: inline;
 }
 
 /* main image */
