@@ -119,7 +119,7 @@ h3 {
     text-align: center;
   }
 
-  .row {
+  .row :after{
     content: "";
     display: inline-table;
     clear: both;
@@ -134,24 +134,34 @@ h3 {
     grid-row: 5;
   }
   
-  .item6 {
+.item6 {
     grid-column: 1 / span 3;
     grid-row: 6;
   }
 
-  .item7 {
+.item7 {
     grid-column: 1 / span 3;
     grid-row: 7;
   }
 
-.user-image .left {
+
+#jane-img {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+#joe-img {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+.left {
     left: 0px;
     padding: 10px;
 
 }
 
-.user-image .right {
-    position: absolute;
+.right {
     right: 0px;
     padding: 10px;
 }
