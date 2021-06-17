@@ -115,19 +115,15 @@ h3 {
   .column {
     float: left;
     width: 33.33%;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
   }
 
-
-
-  .row:after {
+  .row {
     content: "";
-    display: table;
+    display: inline-table;
     clear: both;
-  }
-
-    h3 > p{
-    box-align: inherit;
+    padding: 10px 20px 10px 20px;
   }
 
 
