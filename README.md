@@ -6,15 +6,24 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 
 ## Features
 
-* Navigation
+* __Navigation__
     * This navigation bar allows the user to skip down to the different psections of the website with a click of the button.
-
-
     * Under ever subheading of About, Trail and Hub there is a link to jump back to the top of the page.
 
+![Image of Nav Bar](https://github.com/MBissett29/Spokes/blob/main/assets/images/nav_bar.png) 
+![Image of Back to Top](https://github.com/MBissett29/Spokes/blob/main/assets/images/back_to_top.png)
 
+* __Main Image__
+    * This image is to outline what the subject of the websie is about, mountain bikers and their love and passion for being outdoors.
+
+![Image of Mountain Biker](https://github.com/MBissett29/Spokes/blob/main/assets/images/perxels-pixabay-161172.jpg)
+
+* __About__
+    * This section explains what Spokes is, whats its aim and whats the vision for the social page.
 
 ## Features to Add
+
+* I would like to implement an image carousel on the main image section, either using members images or upload more images in the future.
 
 ### Members Page
 * once logged into the social page it will allow members to input and add their trails to the main trail section part of the website.
