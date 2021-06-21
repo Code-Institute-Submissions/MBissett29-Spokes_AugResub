@@ -163,8 +163,12 @@ h4 {
   margin: 10px;
   }
 
+table {
+  max-width: 500px;
+}
+
 #joe-img {
-  float: right;
+  float: left;
   max-width: 400px;
   max-height: 400px;
   margin: 10px;
