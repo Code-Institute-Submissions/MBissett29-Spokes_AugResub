@@ -19,26 +19,33 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 ![Image of Mountain Biker](https://github.com/MBissett29/Spokes/blob/main/assets/images/perxels-pixabay-161172.jpg)
 
 * __About__
-    * This section explains what Spokes is, whats its aim and whats the vision for the social page.
+    * The about section is outlined in three small columns.
+    * Its a brief synapse to show the user who this page is for, from what is the website about to its aim and vision of how the social media page is to be used. 
+
+* __Trail__
+    * This section provides members input. As you can see the two posts that are shown are testimonials from members who wish to share their rides.
+    * The trail section will expand over time as more members sign up and input their experiences and testimonials to the page.
+
+* __Hub__
+    * This section is for users to imput personal details to sign up to be a member.
+    * This allows them to add to the abover trail section and to be part of a gowing community.
+
+* __Footer__
+    * Decided to keep the footer section short and simple and it shows that spokes is connected to other social media pages. From Instagram to Twitter.
+    * The user can click and connect up to the different social media pages to either see photos on instagram either from posts from Spokes or from tags that users have posted on their uploads. Twitter will be used to send out potential rides that maybe local to the user. Depending on location.
 
 ## Features to Add
 
-* I would like to implement an image carousel on the main image section, either using members images or upload more images in the future.
+### Image Carousel
+
+* I would like to implement an image carousel on the main image section, using members images. The reason for this not being at the initial launch is due to not having members signed up to the website, but will be updated as members start to join.
 
 ### Members Page
-* once logged into the social page it will allow members to input and add their trails to the main trail section part of the website.
 
-### Form Section
-* In the future this form section will be able to store data using another programming language.
+* To create a members page I need to create a back end server to store data so that users can become mmembers and add to the website.
+* Once logged into the social page it will allow members to input and add their trails to the main trail section part of the website.
 
 
 ## Testing
 
-### Images
-* I particualrly found also the sizing of the different particularly a challenge to fit where i wanted them to with in its section, from the main-image to also the users-image.
 
-### About section
-* i have done alot of testing to position the three boxes of information, this has provided me with a learning experience of needing to look more into centering, positioning and the bos method. After doing some more html and css research i realised that giving the three different section a class of .row and .column i found that it made the page respon to what i wanted it to do. 
-
-### Trail Section
-* I changed the format of the trail section frim just an image and some text into a table to make the page a little more uniform. I am still unsure if that is something that works in the long run however for now it neatens it up.
