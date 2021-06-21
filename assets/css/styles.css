@@ -157,26 +157,19 @@ h4 {
 
 
 #jane-img {
-    max-width: 400px;
-    max-height: 400px;
-    border-width: 2px;
+  float:left;
+  max-width: 400px;
+  max-height: 400px;
+  margin: 10px;
   }
 
 #joe-img {
-    max-width: 400px;
-    max-height: 400px;
+  float: right;
+  max-width: 400px;
+  max-height: 400px;
+  margin: 10px;
   }
 
-.left {
-    left: 0px;
-    padding: 10px;
-
-}
-
-.right {
-    right: 0px;
-    padding: 10px;
-}
 
 /* Form */
 
