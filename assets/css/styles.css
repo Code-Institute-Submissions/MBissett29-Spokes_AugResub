@@ -125,17 +125,16 @@ h4 {
   
 
   .column {
-    float: left;
-    width: 33.33%;
+    width: 33%;
+    display: inline-block;
     padding: 10px 20px 10px 20px;
     text-align: center;
   }
 
-  .row :after{
-    content: "";
-    display: table;
-    clear: both;
-    padding: 10px 20px 10px 20px;
+  .column p {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
   }
 
 
@@ -185,6 +184,7 @@ h4 {
     grid-column: 1 / span 3;
     grid-row: 8;
     text-align: center;
+    display: inline;
   }
 
 
