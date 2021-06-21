@@ -180,6 +180,9 @@ h4 {
     display: inline;
   }
 
+#hub {
+  text-decoration: #416165;
+}
 
 .text-input {
     background: transparent;
@@ -198,7 +201,8 @@ h4 {
 }
 
 #button {
-    color: #416165;
+    background-color: #416165;
+    color: #d0cdd7;
 }
 
 /* Footer */
