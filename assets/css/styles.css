@@ -6,8 +6,9 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    grid-auto-columns: repeat (3, auto);
+    grid-auto-rows: repeat (9, auto);
+    max-width: 100%;
 }
 
 .grid-item {
@@ -19,6 +20,7 @@ body {
     background-color: #d0cdd7;
     font-family: Monsterrat, sans-serif;
     color: #416165;
+    max-height: 100%;
 }
 
 p {
@@ -41,7 +43,8 @@ li {
 
 .item1 {
     grid-column: 1 / span 3;
-    grid-row: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
   }
 
 h1 {
@@ -77,14 +80,14 @@ h4 {
     font-size: 500%;
     margin-top: 50px;
     letter-spacing: 2px;
-    text-align: center;
 }
 
 /* Nav Bar */
 
 .item2 {
     grid-column: 1 / span 3;
-    grid-row: 2 
+    grid-row-start: 2;
+    grid-row-end: 2;
   }
   
 
@@ -106,7 +109,8 @@ h4 {
 
 .item3 {
     grid-column: 1 / span 3;
-    grid-row: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
     background-image: url(../images/pexels-pixabay-161172.jpg);
     background-position: center;
     background-size: cover;
@@ -123,7 +127,10 @@ h4 {
 
 .item4 {
     grid-column: 1 / span 3;
-    grid-row: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    margin-left 5%;
+    margin-right: 5%;
   }
   
 
@@ -150,28 +157,34 @@ h4 {
 
 .item5 {
     grid-column: 1 / span 3;
-    grid-row: 5;
+    grid-row-start: 5;
+    grid-row-end: 5;
   }
   
 .item6 {
     grid-column: 1 / span 3;
-    grid-row: 6;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
 #jane-img {
   float:left;
   max-width: 250px;
   max-height: 250px;
-  margin: 10px;
   }
 
 .item7 {
     grid-column: 1 / span 3;
-    grid-row: 7;
+    grid-row-start: 7;
+    grid-row-end: 7;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
 #joe-img {
-  float: left;
+  float: right;
   max-width: 250px;
   max-height: 250px;
   margin: 10px;
@@ -187,7 +200,8 @@ span {
 
 .item8 {
     grid-column: 1 / span 3;
-    grid-row: 8;
+    grid-row-start: 8;
+    grid-row-end: 9;
   }
 
 #hub {
@@ -198,29 +212,31 @@ span {
 
 .text-input {
     background: transparent;
-    width: 25%;
+    width: 33%;
     height: 25px;
-    margin: 5px 0 20px 0;
     border: 1px solid;
     border-radius: 2px;
+    margin: 20px 33% 20px 33%;
+
 }
 
 #signup {
     max-width: 100%;
-    position: absolute;
     padding: 30px; 
 }
 
-#button {
+div > #button {
     background-color: #416165;
     color: #d0cdd7;
+    text-align: center;
 }
 
 /* Footer */
 
 .item9 {
     grid-column: 1 / span 3;
-    grid-row: 9;
+    grid-row-start: 9;
+    grid-row-end: 10;
   }
 
 
@@ -228,8 +244,8 @@ footer {
   color: #416165;
   font-size: 200%;
   max-width: 100%;
-  max-height: 100px;
   display: inline;
   margin-left: 33em;
-  margin-right: 33em;
+  margin-right: -33em;
+  text-align: center;
 }
