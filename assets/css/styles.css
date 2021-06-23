@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat (16, 1fr);
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
     grid-template-areas: '. header .''. nav .''main-image main-image main-image''. about .''about-column1 about-column2 about-column3''. trail .''. trail-user1 .''. trail-user2 .';
 }
@@ -46,15 +46,14 @@ li {
     grid-area: header;
   }
 
-h2 {
+.sub-heading {
     font-size: 250%;
     font-family: Farro;
     text-transform: uppercase;
-    letter-spacing: 2px;  
-    text-align: center; 
+    letter-spacing: 2px;
 }
 
-h3 {
+.about-heading {
     font-size: 150%;
     font-family: Farro;
     text-transform: uppercase;
