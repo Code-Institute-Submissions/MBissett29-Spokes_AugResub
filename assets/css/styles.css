@@ -7,7 +7,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(13, 400px);
+    grid-template-rows: repeat(13, auto);
     justify-content: space-around;
     align-content: center;
     grid-template-areas: '. header .''. nav .''main-image main-image main-image''. about .''about-column1 about-column2 about-column3''. trail .''. trail-user1 .''. trail-user2 .''. hub .''. sign-up .''. footer .';
@@ -118,14 +118,14 @@ li {
 
 .item6 {
   grid-column: 2 / 3;
-  grid-row-start: 6;
-  grid-row-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 5;
   grid-area: about-column2;
 }
 .item7 {
   grid-column: 3 / 4;
-  grid-row-start: 7;
-  grid-row-end: 7;
+  grid-row-start: 5;
+  grid-row-end: 5;
   grid-area: about-column3;
 }
 .about-heading {
@@ -148,15 +148,15 @@ li {
 
 .item8 {
     grid-column: 2 / 3;
-    grid-row-start: 8;
-    grid-row-end: 8;
+    grid-row-start: 6;
+    grid-row-end: 7;
     grid-area: trail;
   }
   
 .item9 {
     grid-column: 2 / 3;
-    grid-row-start: 9;
-    grid-row-end: 9;
+    grid-row-start: 7;
+    grid-row-end: 8;
     grid-area: trail-user1;
   }
 
@@ -168,8 +168,8 @@ li {
 
 .item10 {
     grid-column: 2 / 3;
-    grid-row-start: 10;
-    grid-row-end: 10;
+    grid-row-start: 8;
+    grid-row-end: 9;
     grid-area: trail-user2;
   }
 
@@ -190,15 +190,15 @@ span {
 
 .item11 {
     grid-column: 2 / 3;
-    grid-row-start: 11;
-    grid-row-end: 12;
+    grid-row-start: 9;
+    grid-row-end: 10;
     grid-area: hub;
   }
 
 .item12 {
     grid-column: 2/ 3;
-    grid-row-start: 12;
-    grid-row-end: 13;
+    grid-row-start: 10;
+    grid-row-end: 11;
     grid-area: sign-up;
     
 }
@@ -231,8 +231,8 @@ div > #button {
 
 .item13 {
   grid-column: 2/ 3;
-    grid-row-start: 13;
-    grid-row-end: 14;
+    grid-row-start: 11;
+    grid-row-end: 12;
     grid-area: footer;
 }
 
