@@ -10,7 +10,7 @@
     grid-template-rows: repeat (9, 1fr);
     justify-content: center;
     align-content: center;
-    grid-template-areas: '. header .' '. nav .';
+    grid-template-areas: '. header .' '. nav .' 'main-image main-image main-image';
 }
 
 
@@ -108,6 +108,7 @@ h4 {
     background-image: url(../images/pexels-pixabay-161172.jpg);
     background-position: center;
     background-size: cover;
+    grid-area: main-image;
   }
 
  div > #main-image {
