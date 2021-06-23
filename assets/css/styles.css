@@ -5,12 +5,12 @@
 }
 
 .grid-container {
-    display: inline-grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat (12, 1fr);
+    grid-template-rows: repeat (16, 1fr);
     justify-content: center;
     align-content: center;
-    grid-template-areas: '. header .''. nav .''main-image main-image main-image''. about .''about-column1 about-column2 about-column3''. trail .';
+    grid-template-areas: '. header .''. nav .''main-image main-image main-image''. about .''about-column1 about-column2 about-column3''. trail .''. trail-user1 .''. trail-user2 .';
 }
 
 
@@ -147,19 +147,6 @@ h4 {
   grid-area: about-column3;
 }
 
-.column {
-    width: 33%;
-    display: inline-block;
-    padding: 10px 20px 10px 20px;
-    text-align: center;
-  }
-
-.column p {
-    width: 33%;
-    display: inline-block;
-    text-align: center;
-  }
-
 
 /* Trail Section */
 
@@ -172,11 +159,10 @@ h4 {
   }
   
 .item9 {
-    grid-column: 1 / span 3;
-    grid-row-start: 7;
-    grid-row-end: 7;
-    margin-left: 10%;
-    margin-right: 10%;
+    grid-column: 2 / 3;
+    grid-row-start: 9;
+    grid-row-end: 9;
+    grid-area: trail-user1;
   }
 
 #jane-img {
@@ -186,11 +172,10 @@ h4 {
   }
 
 .item10 {
-    grid-column: 1 / span 3;
-    grid-row-start: 7;
-    grid-row-end: 7;
-    margin-left: 10%;
-    margin-right: 10%;
+    grid-column: 2 / 3;
+    grid-row-start: 10;
+    grid-row-end: 10;
+    grid-area: trail-user2;
   }
 
 #joe-img {
