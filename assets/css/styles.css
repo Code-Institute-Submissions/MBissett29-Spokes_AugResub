@@ -7,9 +7,9 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(13, auto);
-    justify-content: space-around;
+    grid-auto-rows: minmax(100px, auto);
     align-content: center;
+    justify-content: space-evenly;
     grid-template-areas: '. header .''. nav .''main-image main-image main-image''. about .''about-column1 about-column2 about-column3''. trail .''. trail-user1 .''. trail-user2 .''. hub .''. sign-up .''. footer .';
 }
 
@@ -20,17 +20,6 @@ body {
     color: #416165;
     max-height: 100%;
 }
-
-
-
-
-li {
-  list-style-type: none;
-  display: inline-flex;
-
-}
-
-
 
 /* Headings and Logo */
 
@@ -58,9 +47,6 @@ li {
 }
 
 
-
-
-
 /* Nav Bar */
 
 .item2 {
@@ -70,14 +56,18 @@ li {
     grid-area: nav;
   }
   
+#nav {
+  text-align: center;
+}
 
 .menu {
     text-transform: uppercase;
     font-family: Farro;
     font-size: 180%;
     text-decoration: none;
-    list-style-type: none;  
-    text-align: center;
+    list-style-type: none;
+    display: inline;
+   
 }
 
 
@@ -149,40 +139,38 @@ li {
 .item8 {
     grid-column: 2 / 3;
     grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-end: 6;
     grid-area: trail;
   }
   
 .item9 {
     grid-column: 2 / 3;
     grid-row-start: 7;
-    grid-row-end: 8;
+    grid-row-end: 7;
     grid-area: trail-user1;
   }
 
 #jane-img {
   float:left;
-  max-width: 250px;
   max-height: 250px;
+  max-width: 250px;
   }
 
 .item10 {
     grid-column: 2 / 3;
     grid-row-start: 8;
-    grid-row-end: 9;
+    grid-row-end: 8;
     grid-area: trail-user2;
   }
 
 #joe-img {
   float: right;
-  max-width: 250px;
   max-height: 250px;
-  margin: 10px;
+  max-width: 250px;
   }
 
 span {
   display: block;
-  max-width: 700px;
 }
 
 
@@ -191,14 +179,14 @@ span {
 .item11 {
     grid-column: 2 / 3;
     grid-row-start: 9;
-    grid-row-end: 10;
+    grid-row-end: 9;
     grid-area: hub;
   }
 
 .item12 {
     grid-column: 2/ 3;
     grid-row-start: 10;
-    grid-row-end: 11;
+    grid-row-end: 10;
     grid-area: sign-up;
     
 }
@@ -232,7 +220,7 @@ div > #button {
 .item13 {
   grid-column: 2/ 3;
     grid-row-start: 11;
-    grid-row-end: 12;
+    grid-row-end: 11;
     grid-area: footer;
 }
 
