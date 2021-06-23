@@ -7,10 +7,10 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat (16, 1fr);
+    grid-template-rows: repeat (13, 400px);
     justify-content: space-around;
     align-content: center;
-    grid-template-areas: '. header .''. nav .''main-image main-image main-image''. about .''about-column1 about-column2 about-column3''. trail .''. trail-user1 .''. trail-user2 .';
+    grid-template-areas: '. header .''. nav .''main-image main-image main-image''. about .''about-column1 about-column2 about-column3''. trail .''. trail-user1 .''. trail-user2 .''. hub .''. sign-up .''. footer .';
 }
 
 
@@ -46,28 +46,6 @@ li {
     grid-area: header;
   }
 
-.sub-heading {
-    font-size: 250%;
-    font-family: Farro;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.about-heading {
-    font-size: 150%;
-    font-family: Farro;
-    text-transform: uppercase;
-    letter-spacing: 2px;   
-}
-
-h4 {
-  font-size: 75%;
-  font-family: Farro;
-  text-transform: uppercase;
-  letter-spacing: 2px; 
-  text-align: center;
-}
-
 #logo {
     font-family: Farro;
     font-size: 500%;
@@ -75,6 +53,24 @@ h4 {
     letter-spacing: 2px;
     text-align: center;
 }
+
+.sub-heading {
+    font-size: 250%;
+    font-family: Farro;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.about-heading {
+    font-size: 150%;
+    font-family: Farro;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center; 
+}
+
+
 
 /* Nav Bar */
 
@@ -86,17 +82,15 @@ h4 {
   }
   
 
-#nav {
+.menu {
     text-transform: uppercase;
     font-family: Farro;
     font-size: 180%;
     text-decoration: none;
     list-style-type: none;  
+    text-align: center;
 }
 
-.menu {
-  display: inline;
-}
 
 /* main image */
 
@@ -192,12 +186,20 @@ span {
 
 /* Form */
 
-.item8 {
-    grid-column: 1 / span 3;
-    grid-row-start: 8;
-    grid-row-end: 9;
+.item11 {
+    grid-column: 2 / 3;
+    grid-row-start: 11;
+    grid-row-end: 12;
+    grid-area: hub;
   }
 
+.item12 {
+    grid-column: 2/ 3;
+    grid-row-start: 12;
+    grid-row-end: 13;
+    grid-area: sign-up;
+    
+}
 #hub {
   text-decoration: #416165;
   max-height: 400px;
@@ -225,12 +227,12 @@ div > #button {
 
 /* Footer */
 
-.item9 {
-    grid-column: 1 / span 3;
-    grid-row-start: 9;
-    grid-row-end: 10;
-    
-  }
+.item13 {
+  grid-column: 2/ 3;
+    grid-row-start: 13;
+    grid-row-end: 14;
+    grid-area: footer;
+}
 
 
 footer {
