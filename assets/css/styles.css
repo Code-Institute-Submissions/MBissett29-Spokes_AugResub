@@ -10,7 +10,11 @@
     grid-template-rows: repeat (9, 1fr);
     justify-content: center;
     align-content: center;
-    grid-template-areas: '. header .' '. nav .' 'main-image main-image main-image';
+    grid-template-areas: '. header .'
+                         '. nav .' 
+                         'main-image main-image main-image' 
+                         '. about .' 
+                         'about-column about-column about-column';
 }
 
 
@@ -121,13 +125,18 @@ h4 {
 /* About Section */
 
 .item4 {
-    grid-column: 1 / span 3;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    margin-left : 5%;
-    margin-right: 5%;
+  grid-column: 2/ 3;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  grid-area: about;
   }
   
+.item5 {
+  grid-column: 1 / span3;
+  grid-row-start: 5;
+  grid grid-row-end: 5;
+  grid-area: about-column;
+}
 
   .column {
     width: 33%;
@@ -136,7 +145,7 @@ h4 {
     text-align: center;
   }
 
-  .column p {
+.column p {
     width: 33%;
     display: inline-block;
     text-align: center;
@@ -150,13 +159,13 @@ h4 {
   margin-right: 33em;
 }
 
-.item5 {
+.item6 {
     grid-column: 1 / span 3;
     grid-row-start: 5;
     grid-row-end: 5;
   }
   
-.item6 {
+.item7 {
     grid-column: 1 / span 3;
     grid-row-start: 6;
     grid-row-end: 6;
