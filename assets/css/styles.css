@@ -75,7 +75,6 @@ h4 {
 }
 
 #logo {
-    float: none;
     font-family: Farro;
     font-size: 500%;
     margin-top: 50px;
@@ -213,11 +212,9 @@ span {
 .text-input {
     background: transparent;
     width: 33%;
-    height: 25px;
     border: 1px solid;
     border-radius: 2px;
     margin: 20px 33% 20px 33%;
-
 }
 
 #signup {
@@ -237,6 +234,7 @@ div > #button {
     grid-column: 1 / span 3;
     grid-row-start: 9;
     grid-row-end: 10;
+    
   }
 
 
@@ -246,6 +244,6 @@ footer {
   max-width: 100%;
   display: inline;
   margin-left: 33em;
-  margin-right: -33em;
+  margin-right: 33em;
   text-align: center;
 }
