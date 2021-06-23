@@ -6,6 +6,11 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 
 ## Features
 
+* __Logo__
+    * Main title of the website
+
+![Image of Logo](https://github.com/MBissett29/Spokes/blob/main/assets/images/Logo.png)
+
 * __Navigation__
     * This navigation bar allows the user to skip down to the different psections of the website with a click of the button.
 
