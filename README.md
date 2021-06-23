@@ -8,9 +8,12 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 
 * __Navigation__
     * This navigation bar allows the user to skip down to the different psections of the website with a click of the button.
-    * Under ever subheading of About, Trail and Hub there is a link to jump back to the top of the page.
 
 ![Image of Nav Bar](https://github.com/MBissett29/Spokes/blob/main/assets/images/nav_bar.png) 
+
+    * Under ever subheading of About, Trail and Hub there is a link to jump back to the top of the page.
+
+
 ![Image of Back to Top](https://github.com/MBissett29/Spokes/blob/main/assets/images/back_to_top.png)
 
 * __Main Image__
@@ -22,17 +25,27 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
     * The about section is outlined in three small columns.
     * Its a brief synapse to show the user who this page is for, from what is the website about to its aim and vision of how the social media page is to be used. 
 
+![Image of About Section](https://github.com/MBissett29/Spokes/blob/main/assets/images/about-section.png)
+
+
 * __Trail__
     * This section provides members input. As you can see the two posts that are shown are testimonials from members who wish to share their rides.
     * The trail section will expand over time as more members sign up and input their experiences and testimonials to the page.
+
+![Image of Trail Section](https://github.com/MBissett29/Spokes/blob/main/assets/images/trail-section.png)
+
 
 * __Hub__
     * This section is for users to imput personal details to sign up to be a member.
     * This allows them to add to the abover trail section and to be part of a gowing community.
 
+![Image of Hub Section](https://github.com/MBissett29/Spokes/blob/main/assets/images/hub-section.png)
+
 * __Footer__
     * Decided to keep the footer section short and simple and it shows that spokes is connected to other social media pages. From Instagram to Twitter.
     * The user can click and connect up to the different social media pages to either see photos on instagram either from posts from Spokes or from tags that users have posted on their uploads. Twitter will be used to send out potential rides that maybe local to the user. Depending on location.
+
+![Image of Footer](https://github.com/MBissett29/Spokes/blob/main/assets/images/footer.png)
 
 ## Features to Add
 
@@ -49,3 +62,13 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 ## Testing
 
 
+## Credits
+
+### Content
+* Instructions on how to implement a grid structure to my HTML and style using CSS was taken from W3 Schools
+* The icons in the headings and footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media 
+
+* The only image that was used from a website was the the main image and that was taken from [Pexels](https://www.pexels.com/photo/biker-holding-mountain-bike-on-top-of-mountain-with-green-grass-161172/) this was a copyright free image site.
+* the other images were taken from self sourced material that I have used.
