@@ -3,14 +3,14 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto 600px auto;
-    grid-template-rows: minmax(100px, auto);
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(11, auto);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    align-content: center;
     justify-content: stretch;
+    align-content: stretch;
     height: 100%;
-    width: 100%;
+    max-width: 100%;
     grid-template-areas: 
       '. header .'
       '. nav .'
@@ -31,6 +31,7 @@ body {
     font-family: Monsterrat, sans-serif;
     color: #416165;
     max-height: 100%;
+    max-width: 100%;
 }
 
 /* Headings and Logo */
@@ -38,7 +39,7 @@ body {
 .item1 {
     grid-column: 2 / 3;
     grid-row-start: 1;
-    grid-row-end: 1;
+    grid-row-end: -1;
     grid-area: header;
   }
 
@@ -62,7 +63,7 @@ body {
 .item2 {
     grid-column: 2 / 3;
     grid-row-start: 2;
-    grid-row-end: 2;
+    grid-row-end: -2;
     grid-area: nav;
   }
   
@@ -86,7 +87,7 @@ body {
 .item3 {
     grid-column: 1 / span 3;
     grid-row-start: 3;
-    grid-row-end: 3;
+    grid-row-end: -33;
     background-image: url(../images/pexels-pixabay-161172.jpg);
     background-position: center;
     background-size: cover;
