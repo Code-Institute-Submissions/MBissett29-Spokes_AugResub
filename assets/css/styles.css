@@ -11,7 +11,18 @@
     justify-content: stretch;
     height: 100%;
     width: 100%;
-    grid-template-areas: '. header .''. nav .''main-image main-image main-image''. about .''about-column1 about-column2 about-column3''. trail .''. trail-user1 .''. trail-user2 .''. hub .''. sign-up .''. footer .';
+    grid-template-areas: 
+      '. header .'
+      '. nav .'
+      'main-image main-image main-image'
+      '. about .'
+      'about-column1 about-column2 about-column3'
+      '. trail .'
+      '. trail-user1 .'
+      '. trail-user2 .'
+      '. hub .'
+      '. sign-up .'
+      '. footer .';
 }
 
 
@@ -34,8 +45,6 @@ body {
 #logo {
     font-family: Farro;
     font-size: 500%;
-    margin-top: 50px;
-    letter-spacing: 2px;
     text-align: center;
 }
 
@@ -128,7 +137,6 @@ body {
 }
 
 .about-p {
-  max-width: 200px;
   text-align: center;
   font-size: large;
 }
@@ -171,9 +179,6 @@ body {
   max-width: 250px;
   }
 
-.text-wrap {
-  text-align: center;
-}
 
 
 /* Form */
@@ -208,7 +213,6 @@ body {
 
 #signup {
     max-width: 100%;
-    padding: 30px; 
 }
 
 div > #button {
