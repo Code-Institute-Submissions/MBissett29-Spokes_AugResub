@@ -3,14 +3,13 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: repeat(11, auto);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     justify-content: stretch;
     align-content: stretch;
     max-height: 100%;
-    max-width: 100%;
     grid-template-areas: 
       '. header .'
       '. nav .'
@@ -87,7 +86,7 @@ body {
 .item3 {
     grid-column: 1 / span 3;
     grid-row-start: 3;
-    grid-row-end: -33;
+    grid-row-end: -3;
     background-image: url(../images/pexels-pixabay-161172.jpg);
     background-position: center;
     background-size: cover;
