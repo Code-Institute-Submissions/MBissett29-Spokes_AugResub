@@ -9,7 +9,7 @@
     grid-row-gap: 20px;
     justify-content: stretch;
     align-content: stretch;
-    height: 100%;
+    max-height: 100%;
     max-width: 100%;
     grid-template-areas: 
       '. header .'
@@ -18,8 +18,8 @@
       '. about .'
       'about-column1 about-column2 about-column3'
       '. trail .'
-      '. trail-user1 .'
-      '. trail-user2 .'
+      'trail-user1 trail-user1 trail-user1'
+      'trail-user2 trail-user2 trail-user2'
       '. hub .'
       '. sign-up .'
       '. footer .';
@@ -153,7 +153,7 @@ body {
   }
   
 .item9 {
-    grid-column: 2 / 3;
+    grid-column: 1 / span3;
     grid-row-start: 7;
     grid-row-end: 7;
     grid-area: trail-user1;
@@ -167,7 +167,7 @@ body {
   }
 
 .item10 {
-    grid-column: 2 / 3;
+    grid-column: 1 / span3;
     grid-row-start: 8;
     grid-row-end: 8;
     grid-area: trail-user2;
