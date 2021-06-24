@@ -9,6 +9,7 @@
     grid-row-gap: 20px;
     justify-content: stretch;
     align-content: stretch;
+    align-items: center;
     max-height: 100%;
     grid-template-areas: 
       '. header .'
@@ -42,7 +43,7 @@ body {
     grid-area: header;
   }
 
-#logo {
+#logo  {
     font-family: Farro;
     font-size: 500%;
     text-align: center;
@@ -230,6 +231,12 @@ div > #button {
     grid-area: footer;
 }
 
+.footer-list {
+  list-style: none;
+  text-align: center;
+  max-width: 100%;
+
+}
 
 footer {
   color: #416165;
@@ -238,5 +245,5 @@ footer {
   display: inline;
   margin-left: 33em;
   margin-right: 33em;
-  text-align: center;
+  
 }
