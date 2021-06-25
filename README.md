@@ -9,7 +9,7 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 * __Logo__
     * Main title of the website
 
-![Image of Main Title]()
+![Image of Main Title](https://github.com/MBissett29/Spokes/blob/main/assets/images/main-title.png)
 
 * __Navigation__
     * This navigation bar allows the user to skip down to the different psections of the website with a click of the button.
@@ -19,7 +19,7 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
     * Under ever subheading of About, Trail and Hub there is a link to jump back to the top of the page.
 
 
-![Image of Back to Top]()
+![Image of Back to Top](https://github.com/MBissett29/Spokes/blob/main/assets/images/fltng-btn.png)
 
 * __Main Image__
     * This image is to outline what the subject of the websie is about, mountain bikers and their love and passion for being outdoors.
@@ -30,27 +30,27 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
     * The about section is outlined in three small columns.
     * Its a brief synapse to show the user who this page is for, from what is the website about to its aim and vision of how the social media page is to be used. 
 
-![Image of About Section]()
+![Image of About Section](https://github.com/MBissett29/Spokes/blob/main/assets/images/about-section.png)
 
 
 * __Trail__
     * This section provides members input. As you can see the two posts that are shown are testimonials from members who wish to share their rides.
     * The trail section will expand over time as more members sign up and input their experiences and testimonials to the page.
 
-![Image of Trail Section]()
+![Image of Trail Section](https://github.com/MBissett29/Spokes/blob/main/assets/images/trail-section.png)
 
 
 * __Hub__
     * This section is for users to imput personal details to sign up to be a member.
     * This allows them to add to the abover trail section and to be part of a gowing community.
 
-![Image of Hub Section]()
+![Image of Hub Section](https://github.com/MBissett29/Spokes/blob/main/assets/images/hub-section.png)
 
 * __Footer__
     * Decided to keep the footer section short and simple and it shows that spokes is connected to other social media pages. From Instagram to Twitter.
     * The user can click and connect up to the different social media pages to either see photos on instagram either from posts from Spokes or from tags that users have posted on their uploads. Twitter will be used to send out potential rides that maybe local to the user. Depending on location.
 
-![Image of Footer]()
+![Image of Footer](https://github.com/MBissett29/Spokes/blob/main/assets/images/footer.png)
 
 ## Features to Add
 
@@ -67,10 +67,11 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 ## Testing
 
 * __HTML__
-    * No errors were found when i used the official W3C validator
+    * No errors were found when i used the official [W3C validator](https://validator.w3.org/nu/#textarea)
 
 *__CSS__
-    * No errors were found when i used the official (Jigsaw) validator
+    * No errors were found when i used the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
+
 ## Credits
 
 ### Content
