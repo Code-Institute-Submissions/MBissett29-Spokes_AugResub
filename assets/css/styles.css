@@ -32,6 +32,22 @@ body {
     max-width: 100%;
 }
 
+.floating-btn {
+  width: 30px;
+  height: 30px;
+  background-color: #416165;
+  color: #d0cdd7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 20px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
 /* Headings and Logo */
 
 .item1 {
