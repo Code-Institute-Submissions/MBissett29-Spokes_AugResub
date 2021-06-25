@@ -9,7 +9,7 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 * __Logo__
     * Main title of the website
 
-![Image of Logo]()
+![Image of Main Title]()
 
 * __Navigation__
     * This navigation bar allows the user to skip down to the different psections of the website with a click of the button.
