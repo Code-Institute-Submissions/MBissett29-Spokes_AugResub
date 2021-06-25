@@ -66,7 +66,11 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 
 ## Testing
 
+* __HTML__
+    * No errors were found when i used the official W3C validator
 
+*__CSS__
+    * No errors were found when i used the official (Jigsaw) validator
 ## Credits
 
 ### Content
