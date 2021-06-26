@@ -69,18 +69,25 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 ## Testing
 
 * __HTML__
-    * No errors were found when i used the official [W3C validator](https://validator.w3.org/nu/#textarea)
+    * No errors were found when i used the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmbissett29.github.io%2FSpokes%2F)
+
+![Image of W3C Html validator](https://github.com/MBissett29/Spokes/blob/main/assets/images/html-valid.png)
 
 *__CSS__
-    * No errors were found when i used the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
+    * No errors were found when i used the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fshowsource%3Dyes%26doc%3Dhttps%253A%252F%252Fmbissett29.github.io%252FSpokes%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+![Image of CSS Jigsaw validator](https://github.com/MBissett29/Spokes/blob/main/assets/images/css-valid.png)
 
 ## Credits
 
-### Content
-* Instructions on how to implement a grid structure to my HTML and style using CSS was taken from W3 Schools
+* Instructions on how to implement a grid structure to my HTML and style using CSS was taken from [W3-Schools](https://www.w3schools.com/css/css_grid.asp)
+
 * The icons in the headings and footer were taken from [Font Awesome](https://fontawesome.com/)
+
+* The floating button was courtesy of learning from a youtube instructional video. [Floating-Button](https://www.youtube.com/watch?v=u5hx_YtqylA)
 
 ### Media 
 
 * The only image that was used from a website was the the main image and that was taken from [Pexels](https://www.pexels.com/photo/biker-holding-mountain-bike-on-top-of-mountain-with-green-grass-161172/) this was a copyright free image site.
+
 * the other images were taken from self sourced material that I have used.
