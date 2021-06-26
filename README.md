@@ -16,8 +16,10 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 
 ![Image of Nav Bar]() 
 
-    * Under ever subheading of About, Trail and Hub there is a link to jump back to the top of the page.
+   
+*__Back to Top Button__
 
+ * Under ever subheading of About, Trail and Hub there is a link to jump back to the top of the page.
 
 ![Image of Back to Top](https://github.com/MBissett29/Spokes/blob/main/assets/images/fltng-btn.png)
 
