@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Farro&family=Montserrat&display=swap');
 
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 515px);
