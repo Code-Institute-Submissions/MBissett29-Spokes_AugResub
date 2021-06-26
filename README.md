@@ -14,7 +14,7 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 * __Navigation__
     * This navigation bar allows the user to skip down to the different psections of the website with a click of the button.
 
-![Image of Nav Bar]() 
+![Image of Nav Bar](https://github.com/MBissett29/Spokes/blob/main/assets/images/nav-bar.png) 
 
    
 *__Back to Top Button__
