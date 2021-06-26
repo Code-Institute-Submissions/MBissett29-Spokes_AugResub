@@ -174,12 +174,16 @@ body {
     grid-row-end: 7;
     grid-area: trail-user1;
     align-self: center;
+    margin-right: 33%;
+    margin-left: 33%;
   }
 
 #jane-img {
   float:left;
   max-height: 250px;
   max-width: 250px;
+  padding: 20px;
+  border-radius: 5%;
   }
 
 .item10 {
@@ -188,15 +192,21 @@ body {
     grid-row-end: 8;
     grid-area: trail-user2;
     align-self: center;
+    margin-right: 33%;
+    margin-left: 33%;
   }
 
 #joe-img {
   float: right;
   max-height: 250px;
   max-width: 250px;
+  padding: 20px;
+  border-radius: 5%;
   }
 
-
+ .text-wrap {
+   text-align: center;
+ }
 
 /* Form */
 
