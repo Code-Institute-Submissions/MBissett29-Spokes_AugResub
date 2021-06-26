@@ -2,7 +2,7 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 515px);
+    grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(11, auto);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
