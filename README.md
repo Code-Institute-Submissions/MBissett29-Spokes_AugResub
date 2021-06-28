@@ -91,3 +91,14 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 * The only image that was used from a website was the the main image and that was taken from [Pexels](https://www.pexels.com/photo/biker-holding-mountain-bike-on-top-of-mountain-with-green-grass-161172/) this was a copyright free image site.
 
 * the other images were taken from self sourced material that I have used.
+
+### Deploymant
+
+* Git Hub Deployment
+    * Log into Git Hub.
+    * Locate Spokes repository.
+    * Click settings above in options bar.
+    * Click to pages on the side bar
+    * Under the source tab click none and select Main branch.
+    * Click Save
+    * A message about with say " Your site is ready to be published at (https://mbissett29.github.io/Spokes/) 
