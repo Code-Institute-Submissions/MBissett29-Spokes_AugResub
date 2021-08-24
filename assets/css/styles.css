@@ -90,6 +90,26 @@ body {
   padding-right: 25%;
 }
 
+#nav-home {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#nav-about {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#nav-trail {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#nav-hub {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .menu {
     text-transform: uppercase;
     font-family: Farro;
