@@ -134,7 +134,7 @@ body {
     grid-area: main-image;
   }
 
- div #main-image {
+#main-image {
     max-width: 1600px;
     max-height: 800px;
     text-align: center;
