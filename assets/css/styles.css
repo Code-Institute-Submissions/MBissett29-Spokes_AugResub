@@ -53,7 +53,7 @@ body {
 
 /* Headings and Logo */
 
-.item1 {
+.item-logo {
     grid-column: 2 / 3;
     grid-row-start: 1;
     grid-row-end: 1;
@@ -81,7 +81,7 @@ body {
 
 /* Nav Bar */
 
-.item2 {
+.item-nav {
     grid-column: 2 / 3;
     grid-row-start: 2;
     grid-row-end: 2;
@@ -127,7 +127,7 @@ body {
 
 /* main image */
 
-.item3 {
+.item-image {
     grid-column: 1 / span 3;
     grid-row-start: 3;
     grid-row-end: 3;
@@ -138,35 +138,33 @@ body {
     max-width: 1600px;
     max-height: 800px;
     text-align: center;
-    padding-left: 120px;
-    padding-right: 120px;
 }
 
 
 
 /* About Section */
 
-.item4 {
+.item-about {
   grid-column: 2/ 3;
   grid-row-start: 4;
   grid-row-end: 4;
   grid-area: about;
   }
   
-.item5 {
+.item-spokes {
   grid-column: 1 / 2;
   grid-row-start: 5;
   grid-row-end: 5;
   grid-area: about-column1;
 }
 
-.item6 {
+.item-vision {
   grid-column: 2 / 3;
   grid-row-start: 5;
   grid-row-end: 5;
   grid-area: about-column2;
 }
-.item7 {
+.item-aim {
   grid-column: 3 / -3;
   grid-row-start: 5;
   grid-row-end: 5;
@@ -188,14 +186,14 @@ body {
 /* Trail Section */
 
 
-.item8 {
+.item-trail {
     grid-column: 2 / 3;
     grid-row-start: 6;
     grid-row-end: 6;
     grid-area: trail;
   }
   
-.item9 {
+.item-user-one {
     grid-column: 1 / span3;
     grid-row-start: 7;
     grid-row-end: 7;
@@ -213,7 +211,7 @@ body {
   border-radius: 5%;
   }
 
-.item10 {
+.item-user-two {
     grid-column: 1 / span3;
     grid-row-start: 8;
     grid-row-end: 8;
@@ -237,14 +235,14 @@ body {
 
 /* Form */
 
-.item11 {
+.item-hub {
     grid-column: 2 / 3;
     grid-row-start: 9;
     grid-row-end: 9;
     grid-area: hub;
   }
 
-.item12 {
+.item-form {
     grid-column: 2/ 3;
     grid-row-start: 10;
     grid-row-end: 10;
@@ -269,7 +267,7 @@ body {
     max-width: 100%;
 }
 
-div > #button {
+section > #button {
     background-color: #416165;
     color: #d0cdd7;
     text-align: center;
@@ -277,7 +275,7 @@ div > #button {
 
 /* Footer */
 
-.item13 {
+.item-footer {
   grid-column: 2/ 3;
     grid-row-start: 11;
     grid-row-end: 11;
