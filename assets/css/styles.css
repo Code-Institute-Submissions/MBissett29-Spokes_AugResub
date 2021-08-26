@@ -2,9 +2,10 @@
 
 html {
   scroll-behavior: smooth;
+  
 }
 
-.grid-container {
+/* .grid-container {
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(11, auto);
@@ -24,7 +25,7 @@ html {
       '. hub .'
       '. sign-up .'
       '. footer .';
-}
+} */
 
 
 body {
@@ -53,13 +54,13 @@ body {
 
 /* Headings and Logo */
 
-.item-logo {
+/* .item-logo {
     grid-column: 2 / 3;
     grid-row-start: 1;
     grid-row-end: 1;
     grid-area: header;
     align-items: center;
-  }
+  } */
 
 #logo  {
     font-family: Farro;
@@ -81,12 +82,12 @@ body {
 
 /* Nav Bar */
 
-.item-nav {
+/* .item-nav {
     grid-column: 2 / 3;
     grid-row-start: 2;
     grid-row-end: 2;
     grid-area: nav;
-  }
+  } */
   
 #nav {
   text-align: center;
@@ -95,6 +96,7 @@ body {
   list-style: none;
   padding-left: 25%;
   padding-right: 25%;
+  max-width: auto;
 }
 
 #nav-home {
@@ -127,12 +129,12 @@ body {
 
 /* main image */
 
-.item-image {
+/* .item-image {
     grid-column: 1 / span 3;
     grid-row-start: 3;
     grid-row-end: 3;
     grid-area: main-image;
-  }
+  } */
 
 #main-image {
     max-width: 1600px;
@@ -144,7 +146,7 @@ body {
 
 /* About Section */
 
-.item-about {
+/* .item-about {
   grid-column: 2/ 3;
   grid-row-start: 4;
   grid-row-end: 4;
@@ -169,7 +171,7 @@ body {
   grid-row-start: 5;
   grid-row-end: 5;
   grid-area: about-column3;
-}
+} */
 .about-heading {
   font-size: 150%;
   font-family: Farro;
@@ -186,7 +188,7 @@ body {
 /* Trail Section */
 
 
-.item-trail {
+/* .item-trail {
     grid-column: 2 / 3;
     grid-row-start: 6;
     grid-row-end: 6;
@@ -201,7 +203,7 @@ body {
     align-self: center;
     margin-right: 33%;
     margin-left: 33%;
-  }
+  } */
 
 #jane-img {
   float:left;
@@ -211,7 +213,7 @@ body {
   border-radius: 5%;
   }
 
-.item-user-two {
+/* .item-user-two {
     grid-column: 1 / span3;
     grid-row-start: 8;
     grid-row-end: 8;
@@ -219,7 +221,7 @@ body {
     align-self: center;
     margin-right: 33%;
     margin-left: 33%;
-  }
+  } */
 
 #joe-img {
   float: right;
@@ -235,7 +237,7 @@ body {
 
 /* Form */
 
-.item-hub {
+/* .item-hub {
     grid-column: 2 / 3;
     grid-row-start: 9;
     grid-row-end: 9;
@@ -248,7 +250,7 @@ body {
     grid-row-end: 10;
     grid-area: sign-up;
     
-}
+} */
 #hub {
   text-decoration: #416165;
   max-height: 400px;
@@ -274,13 +276,13 @@ section > #button {
 }
 
 /* Footer */
-
+/* 
 .item-footer {
   grid-column: 2/ 3;
     grid-row-start: 11;
     grid-row-end: 11;
     grid-area: footer;
-}
+} */
 
 .footer-list {
   list-style: none;
