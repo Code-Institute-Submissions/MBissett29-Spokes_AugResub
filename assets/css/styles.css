@@ -11,6 +11,7 @@ body {
     color: #416165;
     max-height: 100%;
     max-width: 100%;
+    margin: 0;
 }
 
 .floating-btn {
@@ -79,10 +80,11 @@ a.menu {
 #img-area {
   max-width: 100%;
   margin: 2px;
+  padding: 0;
 }
 
 #main-image {
-    max-width: 320px;
+    max-width: 318px;
     max-height: auto;
     text-align: center;
 }
