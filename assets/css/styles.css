@@ -136,6 +136,24 @@ a.menu {
   text-align: left;
 }
 
+.fa-user {
+  width: 37.5px;
+  font-size: 30px;
+  color: #3F403f;
+}
+
+.bike-icon {
+  width: 37.5px;
+  font-size: 30px;
+  color: #3F403f;
+}
+
+.fa-scroll {
+  width: 37.5px;
+  font-size: 30px;
+  color: #3F403f;
+}
+
 .next-trail{
   width: 100%;
   height: 4px;
