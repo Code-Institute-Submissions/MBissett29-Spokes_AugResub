@@ -64,8 +64,9 @@ body {
 .menu {
     text-transform: uppercase;
     font-family: Farro;
-    font-size: 180%;
+    font-size: 125%;
     text-decoration: none;
+    padding: 5px;
 }
 
 
