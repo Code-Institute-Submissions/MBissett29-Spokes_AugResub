@@ -132,7 +132,12 @@ a.menu {
    text-align: left;
    max-width: 100%;
  }
-
+.next-trail{
+  width: 100%;
+  height: 4px;
+  background-color: #416165;
+  
+}
 /* Form */
 
 #hub {
