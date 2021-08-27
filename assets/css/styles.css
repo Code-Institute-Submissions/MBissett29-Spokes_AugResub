@@ -69,6 +69,10 @@ body {
     padding: 5px;
 }
 
+a.menu {
+  color:#416165
+}
+
 
 /* main image */
 
@@ -151,7 +155,10 @@ section > #button {
 .footer-list {
   list-style: none;
   max-width: 100%;
+}
 
+a.footer-list {
+  color: #416165;
 }
 
 footer {
