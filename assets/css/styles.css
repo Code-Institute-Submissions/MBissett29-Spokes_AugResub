@@ -41,6 +41,8 @@ body {
 }
 
 .sub-heading {
+  background-color: #416165;
+  color: #d0cdd7;
     font-size: 250%;
     font-family: Farro;
     text-transform: uppercase;
