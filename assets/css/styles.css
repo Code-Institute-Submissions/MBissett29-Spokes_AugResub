@@ -92,8 +92,14 @@ body {
 
 /* main image */
 
+#img-area {
+  max-width: 100%;
+  margin: 2px;
+}
+
 #main-image {
-    max-width: 100%;
+    max-width: 320px;
+    max-height: auto;
     text-align: center;
 }
 
@@ -118,23 +124,20 @@ body {
 
 
 #jane-img {
-  float:left;
-  max-height: 250px;
-  max-width: 250px;
-  padding: 20px;
+  height: 100%;
+  width: 100%;
   border-radius: 5%;
   }
 
 #joe-img {
-  float: right;
-  max-height: 250px;
-  max-width: 250px;
-  padding: 20px;
+  max-height: 100%;
+  max-width: 100%;
   border-radius: 5%;
   }
 
  .text-wrap {
    text-align: center;
+   max-width: 100%;
  }
 
 /* Form */
