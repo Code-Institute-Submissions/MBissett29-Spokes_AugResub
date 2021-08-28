@@ -58,11 +58,13 @@ __Hub__
 
 
 
-* __Footer__
-    * Decided to keep the footer section short and simple and it shows that spokes is connected to other social media pages. From Instagram to Twitter.
-    * The user can click and connect up to the different social media pages to either see photos on instagram either from posts from Spokes or from tags that users have posted on their uploads. Twitter will be used to send out potential rides that maybe local to the user. Depending on location.
+__Footer__
+![Image of Footer](assets/images/footer.png)
 
-![Image of Footer](https://github.com/MBissett29/Spokes/blob/main/assets/images/footer.png)
+* Decided to keep the footer section short and simple and it shows that spokes is connected to other social media pages. From Instagram to Twitter.
+* The user can click and connect up to the different social media pages to either see photos on instagram either from posts from Spokes or from tags that users have posted on their uploads. Twitter will be used to send out potential rides that maybe local to the user. Depending on location.
+
+
 
 ## Features to Add
 
