@@ -94,17 +94,17 @@ __CSS__
 
 ## Credits
 
-* Instructions on how to implement a grid structure to my HTML and style using CSS was taken from [W3-Schools](https://www.w3schools.com/css/css_grid.asp)
+* Instructions on how to implement a grid structure to my HTML and style using CSS was taken from [W3-Schools](https://www.w3schools.com/css/css_grid.asp). Have removed the responsive CSS Grid system and have used media queries instead.
 
 * The icons in the headings and footer were taken from [Font Awesome](https://fontawesome.com/)
 
 * The floating button was courtesy of learning from a youtube instructional video. [Floating-Button](https://www.youtube.com/watch?v=u5hx_YtqylA)
 
-### Media 
+## Media 
 
 * The only image that was used from a website was the the main image and that was taken from [Pexels](https://www.pexels.com/photo/biker-holding-mountain-bike-on-top-of-mountain-with-green-grass-161172/) this was a copyright free image site.
 
-* the other images were taken from self sourced material that I have used.
+* The trail images were taken from self sourced material that I have used from the [OS Maps Wedsite](https://osmaps.ordnancesurvey.co.uk/)
 
 ### Deploymant
 
