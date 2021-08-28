@@ -1,8 +1,8 @@
 # Spokes
 
-Spokes is a website designed to help Mountain Bikers build a community where social interaction is encouraged. Wether that is sharing rides on the website or even creating and sharing a local meet up and ride. Mountain bikers know that you can ride alone, however they all know that riding with friends or even potential friends is what makes the ride even more exciting. 
+Spokes is a website designed to help Mountain Bikers build a community where social interaction is encouraged. Whether that is sharing trails on the website or even creating and sharing a local meet up and rides through social media links. Mountain bikers know that you can ride alone, however they all know that riding with friends or even a community of like minded people is what makes the ride even more exciting. 
 
-Spokes hopes to bring that to life. through either the trail sharing page, where riders can share their rides, or through the social hub page where riders can post messages or locations of local rides that people can attend.
+Spokes hopes to bring that to life. through either the trail sharing page, where riders can share their rides. Or through the social networks where riders can post messages or locations of local rides that people can attend.
 
 ## Features
 
