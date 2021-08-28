@@ -44,11 +44,14 @@ body {
 .sub-heading {
   background-color: #416165;
   color: #d0cdd7;
+  width: inherit;
     font-size: 250%;
     font-family: Farro;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
+    border-radius: 15px;
+    padding: 5px;
 }
 
 .trail-head {
