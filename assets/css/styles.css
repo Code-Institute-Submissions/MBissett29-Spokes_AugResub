@@ -62,9 +62,8 @@ body {
 #nav {
   text-align: center;
   text-decoration: none;
-  display: inline-flex;
   list-style: none;
-  max-width: auto;
+  max-width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -73,13 +72,14 @@ body {
 .menu {
     text-transform: uppercase;
     font-family: Farro;
-    font-size: 125%;
-    text-decoration: none;
-    padding: 5px;
+    font-size: 120%;
+    padding: 2px;
+    display: inline;
 }
 
-a.menu {
-  color:#416165
+a {
+  color:#416165;
+  text-decoration: none;
 }
 
 
@@ -92,7 +92,7 @@ a.menu {
 }
 
 #main-image {
-    max-width: 318px;
+    max-width: 100%;
     max-height: auto;
     text-align: center;
 }
@@ -130,10 +130,11 @@ a.menu {
   }
 
 .user-input {
-  max-width: 320px;
+  max-width: 100%;
   height: auto;
   padding: 5px;
-  text-align: left;
+  margin: 0;
+  text-align: center;
 }
 
 .fa-user {
