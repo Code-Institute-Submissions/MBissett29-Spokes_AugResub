@@ -21,18 +21,17 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
     * This button has also been styled to have a smooth scroll, for improved user design.
 
 
-![Image of Mountain Biker](assets/images/pexels-pixabay-161172.jpg)
+![Image of Mountain Biker](assets/images/pexels-pixabay-161172.jpeg)
 
 * __Main Image__
     * The main image is to show the main theme for this website, all about biking and the outdoors.
 
 
-
+![Image of About Section](assets/images/about-section.png)
 * __About__
-    * The about section is outlined in three small columns.
-    * Its a brief synapse to show the user who this page is for, from what is the website about to its aim and vision of how the social media page is to be used. 
+    * This section shows the user what the purpose of spokes is about, its vision and the aim of the website.
 
-![Image of About Section](https://github.com/MBissett29/Spokes/blob/main/assets/images/about-section.png)
+
 
 
 * __Trail__
