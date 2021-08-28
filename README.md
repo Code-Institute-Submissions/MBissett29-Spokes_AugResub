@@ -33,7 +33,7 @@ __Main Image__
 
 __About__
 
-![Image of About Section](assets/images/about-section.png)
+![About Section](assets/images/about-section.png)
 
 * This section shows the user what the purpose of spokes is about, its vision and the aim of the website.
 
@@ -42,8 +42,8 @@ __About__
 
 __Trail__
 
-![Image of first trail](assets/images/trail-section1.png)
-![Image of second trail](assets/images/trail-section2.png)
+![First trail](assets/images/trail-section1.png)
+![Second trail](assets/images/trail-section2.png)
 
 * This section provides members input. As you can see the two posts that are shown are testimonials from members who wish to share their experiences on the different trails.
 * The trail section will expand over time as more members sign up and input their experiences and testimonials to the page.
@@ -51,7 +51,7 @@ __Trail__
 
 __Hub__
 
-![Image of Hub Section](assets/images/hub-section.png)
+![Hub Section](assets/images/hub-section.png)
 
 * This section is for users to imput personal details to sign up to be a member.
 * This allows them to add to the above trail section and to be part of a growing community.
@@ -60,7 +60,7 @@ __Hub__
 
 __Footer__
 
-![Image of Footer](assets/images/footer.png)
+![Footer](assets/images/footer.png)
 
 * Decided to keep the footer section short and simple and it shows that spokes is connected to other social media pages. From Instagram to Twitter.
 * The user can click and connect up to the different social media pages to either see photos on instagram either from posts from Spokes or from tags that users have posted on their uploads. Twitter will be used to send out potential rides that maybe local to the user. Depending on location.
@@ -78,15 +78,19 @@ __Footer__
 
 ## Testing
 
-* __HTML__
-    * No errors were found when i used the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmbissett29.github.io%2FSpokes%2F)
+__HTML__
 
-![Image of W3C Html validator](https://github.com/MBissett29/Spokes/blob/main/assets/images/html-valid.png)
+![Image of W3C Html validator](assets/images/html-valid.png)
 
-*__CSS__
-    * No errors were found when i used the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fshowsource%3Dyes%26doc%3Dhttps%253A%252F%252Fmbissett29.github.io%252FSpokes%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* No errors were found when i used the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmbissett29.github.io%2FSpokes%2F)
 
-![Image of CSS Jigsaw validator](https://github.com/MBissett29/Spokes/blob/main/assets/images/css-valid.png)
+
+__CSS__
+
+![Image of CSS Jigsaw validator](assets/images/css-valid.png)
+
+* No errors were found when i used the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator)
+
 
 ## Credits
 
