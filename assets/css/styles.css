@@ -226,12 +226,16 @@ a.footer-list {
   
   
 }
+
+/* Mobile Screens */
+
 @media (min-width: 375px) {
   .fig-trails {
     margin: 0 10%;
   }
 }
 
+/* Tablet Screens */
 @media (min-width: 768px) {
   
   
@@ -269,6 +273,8 @@ a.footer-list {
 
 
 }
+
+/* Laptop and Larger Monitors */
 
 @media (min-width: 1024px) {
   .fig-trails {
