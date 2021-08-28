@@ -7,38 +7,48 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 ## Features
 
 
+
+
+__Logo and Navigation__
+
 ![Title and Nav Bar](/assets/images/title-nav.png)
 
-* __Logo and Navigation__
-    * This image shows the Main title of the website.
-    * This also includes thenavigation bar. Which allows the user to skip down to the different sections of the website with a click of the button.
+* This image shows the Main title of the website.
+* This also includes thenavigation bar. Which allows the user to skip down to the different sections of the website with a click of the button.
 
 
- ![Back to Top Button](assets/images/fltng-btn.png)
 
-* __Back to Top Button__
-    * On the side of the page on the bottom right hand corner is a style back to the top button.
-    * This button has also been styled to have a smooth scroll, for improved user design.
+__Back to Top Button__
 
+![Back to Top Button](assets/images/fltng-btn.png)
+
+* On the side of the page on the bottom right hand corner is a style back to the top button.
+* This button has also been styled to have a smooth scroll, for improved user design.
+
+__Main Image__
 
 ![Image of Mountain Biker](assets/images/pexels-pixabay-161172.jpeg)
 
-* __Main Image__
-    * The main image is to show the main theme for this website, all about biking and the outdoors.
+* The main image is to show the main theme for this website, all about biking and the outdoors.
 
+__About__
 
 ![Image of About Section](assets/images/about-section.png)
-* __About__
-    * This section shows the user what the purpose of spokes is about, its vision and the aim of the website.
+
+* This section shows the user what the purpose of spokes is about, its vision and the aim of the website.
 
 
 
 
-* __Trail__
-    * This section provides members input. As you can see the two posts that are shown are testimonials from members who wish to share their rides.
-    * The trail section will expand over time as more members sign up and input their experiences and testimonials to the page.
+__Trail__
 
-![Image of Trail Section](https://github.com/MBissett29/Spokes/blob/main/assets/images/trail-section.png)
+![Image of first trail](assets/images/trail-section1.png)
+![Image of second trail](assets/images/trail-section2.png)
+
+* This section provides members input. As you can see the two posts that are shown are testimonials from members who wish to share their experiences on the different trails.
+* The trail section will expand over time as more members sign up and input their experiences and testimonials to the page.
+
+
 
 
 * __Hub__
