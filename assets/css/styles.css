@@ -214,3 +214,41 @@ a.footer-list {
   
   
 }
+
+@media (min-width: 768px) {
+  
+  
+  #nav {
+    font-size: 1.5em;
+  }
+
+  .sub-heading {
+    font-size: 300%;
+  }
+
+  .about-heading {
+    font-size: 30px;
+  }
+
+  .about-p {
+    font-size: 25px;
+  }
+
+  .trail-head {
+    font-size: 30px;
+  }
+  
+  .user-input {
+    font-size: 25px;
+  }
+
+  .text-input {
+    font-size: 25px;
+  }
+  
+  a .footer-list {
+    font-size: 25px;
+  }
+
+
+}
