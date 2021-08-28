@@ -15,11 +15,15 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 
 
    
-*__Back to Top Button__
+* __Back to Top Button__
 
- * Under ever subheading of About, Trail and Hub there is a link to jump back to the top of the page.
+![Back to Top Button](assets/images/fltng-btn.png)
 
-![Image of Back to Top](https://github.com/MBissett29/Spokes/blob/main/assets/images/fltng-btn.png)
+ * On the side of the page on the bottom right hand corner is a style back to the top button.
+
+ * This button has also been styled to have a smooth scroll, for improved user design.
+
+
 
 * __Main Image__
     * This image is to outline what the subject of the websie is about, mountain bikers and their love and passion for being outdoors.
