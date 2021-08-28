@@ -6,15 +6,13 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 
 ## Features
 
-* __Logo__
-    * Main title of the website
+![Title and Nav Bar](/assets/images/title-nav.png)
 
-![Image of Main Title](https://github.com/MBissett29/Spokes/blob/main/assets/images/main-title.png)
+* __Logo and Navigation__
+    * This image shows the Main title of the website.
 
-* __Navigation__
-    * This navigation bar allows the user to skip down to the different psections of the website with a click of the button.
+    * This also includes thenavigation bar. Which allows the user to skip down to the different sections of the website with a click of the button.
 
-![Image of Nav Bar](https://github.com/MBissett29/Spokes/blob/main/assets/images/nav-bar.png) 
 
    
 *__Back to Top Button__
