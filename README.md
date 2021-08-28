@@ -59,6 +59,7 @@ __Hub__
 
 
 __Footer__
+
 ![Image of Footer](assets/images/footer.png)
 
 * Decided to keep the footer section short and simple and it shows that spokes is connected to other social media pages. From Instagram to Twitter.
@@ -68,9 +69,6 @@ __Footer__
 
 ## Features to Add
 
-### Image Carousel
-
-* I would like to implement an image carousel on the main image section, using members images. The reason for this not being at the initial launch is due to not having members signed up to the website, but will be updated as members start to join.
 
 ### Members Page
 
