@@ -121,6 +121,13 @@ body {
 
 /* Trail Section */
 
+.fig-trails {
+  max-width: 100%;
+  text-align: center;
+  margin: 10% 0;
+  padding: 10px;
+
+}
 
 #jane-img {
   height: 100%;
@@ -213,6 +220,11 @@ a.footer-list {
   color: #416165;
   
   
+}
+@media (min-width: 375px) {
+  .fig-trails {
+    margin: 0 10%;
+  }
 }
 
 @media (min-width: 768px) {
