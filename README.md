@@ -6,29 +6,27 @@ Spokes hopes to bring that to life. through either the trail sharing page, where
 
 ## Features
 
+
 ![Title and Nav Bar](/assets/images/title-nav.png)
 
 * __Logo and Navigation__
     * This image shows the Main title of the website.
-
     * This also includes thenavigation bar. Which allows the user to skip down to the different sections of the website with a click of the button.
 
 
-   
+ ![Back to Top Button](assets/images/fltng-btn.png)
+
 * __Back to Top Button__
-
-![Back to Top Button](assets/images/fltng-btn.png)
-
- * On the side of the page on the bottom right hand corner is a style back to the top button.
-
- * This button has also been styled to have a smooth scroll, for improved user design.
+    * On the side of the page on the bottom right hand corner is a style back to the top button.
+    * This button has also been styled to have a smooth scroll, for improved user design.
 
 
+![Image of Mountain Biker](assets/images/pexels-pixabay-161172.jpg)
 
 * __Main Image__
-    * This image is to outline what the subject of the websie is about, mountain bikers and their love and passion for being outdoors.
+    * The main image is to show the main theme for this website, all about biking and the outdoors.
 
-![Image of Mountain Biker](https://github.com/MBissett29/Spokes/blob/main/assets/images/perxels-pixabay-161172.jpg)
+
 
 * __About__
     * The about section is outlined in three small columns.
