@@ -194,26 +194,23 @@ body {
 
 /* Footer */
 
-.footer-list {
-  list-style: none;
-  max-width: 100%;
-}
-
-a.footer-list {
-  color: #416165;
-}
-
-footer {
+#footer {
   color: #416165;
   font-size: 200%;
   max-width: 100%;
   text-align: center;
   padding: 0;
   margin: 0;
+  display: inline;
 }
 
-footer > ul {
-  padding: 0;
-  margin: 0;
-  display: inline;
+.footer-list {
+  list-style: none;
+  max-width: 100%;  
+}
+
+a.footer-list {
+  color: #416165;
+  
+  
 }
