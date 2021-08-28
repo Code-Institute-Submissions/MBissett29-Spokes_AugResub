@@ -49,13 +49,14 @@ __Trail__
 * The trail section will expand over time as more members sign up and input their experiences and testimonials to the page.
 
 
+__Hub__
+
+![Image of Hub Section](assets/images/hub-section.png)
+
+* This section is for users to imput personal details to sign up to be a member.
+* This allows them to add to the above trail section and to be part of a growing community.
 
 
-* __Hub__
-    * This section is for users to imput personal details to sign up to be a member.
-    * This allows them to add to the abover trail section and to be part of a gowing community.
-
-![Image of Hub Section](https://github.com/MBissett29/Spokes/blob/main/assets/images/hub-section.png)
 
 * __Footer__
     * Decided to keep the footer section short and simple and it shows that spokes is connected to other social media pages. From Instagram to Twitter.
