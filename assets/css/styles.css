@@ -59,9 +59,16 @@ body {
 
 /* Nav Bar */
 
+#nav-bar {
+  max-height: auto;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
 #nav {
   text-align: center;
-  text-decoration: none;
   list-style: none;
   max-width: 100%;
   margin: 0;
@@ -73,17 +80,15 @@ body {
     text-transform: uppercase;
     font-family: Farro;
     font-size: 120%;
-    padding: 2px;
-    display: inline;
+    padding: auto;
+    display: inline-flex;
 }
 
-a {
+.menu > a {
   color:#416165;
   text-decoration: none;
 }
 
-
-/* main image */
 
 #img-area {
   max-width: 100%;
@@ -181,7 +186,7 @@ a {
     max-width: 100%;
 }
 
-section > #button {
+#button {
     background-color: #416165;
     color: #d0cdd7;
     text-align: center;
