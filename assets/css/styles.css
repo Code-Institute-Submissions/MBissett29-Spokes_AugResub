@@ -264,3 +264,40 @@ a.footer-list {
 
 
 }
+
+@media (min-width: 1024px) {
+  .fig-trails {
+    margin: 5% 15%;
+  }
+  #nav {
+    font-size: 1.75em;
+  }
+
+  .sub-heading {
+    font-size: 350%;
+  }
+
+  .about-heading {
+    font-size: 40px;
+  }
+
+  .about-p {
+    font-size: 35px;
+  }
+
+  .trail-head {
+    font-size: 35px;
+  }
+  
+  .user-input {
+    font-size: 35px;
+  }
+
+  .text-input {
+    font-size: 30px;
+  }
+  
+  a .footer-list {
+    font-size: 40px;
+  }
+}
