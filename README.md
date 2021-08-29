@@ -106,6 +106,13 @@ __CSS__
 
 * The trail images were taken from self sourced material that I have used from the [OS Maps Wedsite](https://osmaps.ordnancesurvey.co.uk/)
 
+## Design
+
+* The colour scheme I chose was from [Coolors](https://coolors.co/). I chose this colour scheme as i thought it was pretty neutral. It makes the text easy to read and stand out.
+
+* The font was taken from [Google Fonts](https://fonts.google.com/). I used this font style as it was simple and effective.
+
+
 
 
 ### Deploymant
