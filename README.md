@@ -106,6 +106,8 @@ __CSS__
 
 * The trail images were taken from self sourced material that I have used from the [OS Maps Wedsite](https://osmaps.ordnancesurvey.co.uk/)
 
+
+
 ### Deploymant
 
 * Git Hub Deployment
@@ -115,4 +117,4 @@ __CSS__
     * Click to pages on the side bar
     * Under the source tab click none and select Main branch.
     * Click Save
-    * A message about with say " Your site is ready to be published at (https://mbissett29.github.io/Spokes/) 
+    * A message at the top of the page will show that the site is ready (https://mbissett29.github.io/Spokes/) 
