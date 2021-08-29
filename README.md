@@ -92,6 +92,17 @@ __CSS__
 * No errors were found when i used the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator)
 
 
+__Browser Testing__
+
+![Google View](assets/images/google-view.png)
+* This shows what the page looks like on Google Chrome.
+
+![Safari View](assets/images/safari-small.png)
+* This shows what the page looks like on a small safari window.
+
+![Mobile View](assets/images/mobile-view.png)
+* This shows what the page looks like on a mobile device.
+
 ## Credits
 
 * Instructions on how to implement a grid structure to my HTML and style using CSS was taken from [W3-Schools](https://www.w3schools.com/css/css_grid.asp). Have removed the responsive CSS Grid system and have used media queries instead.
